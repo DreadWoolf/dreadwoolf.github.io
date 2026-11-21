@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080e18" />
+  <meta name="description" content="Rasmus Eliasson — AI and Machine Learning engineering student. Explore selected work in AI security, machine learning, and software architecture." />
+  <title>Rasmus Eliasson | AI & Machine Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <header>
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a class="brand" href="#top" aria-label="Rasmus Eliasson – top of page">
+        <span class="brand-symbol">re.</span>
+        <span class="brand-name">rasmus<span>.</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a class="hide-mobile" href="#projects">Projects</a>
+        <a class="hide-mobile" href="#about">About</a>
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/DreadWoolf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/rasmus-eliasson/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn ↗
+        </a>
+
+        <a class="nav-contact" href="#contact">Contact</a>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <main id="top" class="container">
+    <section class="hero" aria-label="Introduction">
+      <div>
+        <div class="eyebrow"><span class="eyebrow-dot"></span> AI & MACHINE LEARNING ENGINEERING STUDENT</div>
+        <h1><span class="line">Hi, I'm</span><span class="line gradient-name">Rasmus.</span></h1>
+        <p class="hero-description">
+          I'm an engineering student passionate about <strong>building intelligent systems</strong>,
+          exploring <strong>AI security</strong>, and turning challenging ideas into working software.
+          I'm especially interested in <strong>space technology</strong> and autonomous systems.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore my work <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/DreadWoolf" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.365 23c.575.105.785-.25.785-.555 0-.275-.01-1-.015-1.965-3.195.695-3.87-1.54-3.87-1.54-.525-1.335-1.28-1.69-1.28-1.69-1.045-.715.08-.7.08-.7 1.155.08 1.765 1.185 1.765 1.185 1.025 1.755 2.69 1.25 3.345.955.105-.745.4-1.25.73-1.535-2.55-.29-5.23-1.275-5.23-5.68 0-1.255.45-2.28 1.185-3.085-.12-.29-.515-1.46.115-3.04 0 0 .965-.31 3.16 1.18A11 11 0 0 1 12 6.5c.975.005 1.96.13 2.875.385 2.195-1.49 3.155-1.18 3.155-1.18.63 1.58.235 2.75.115 3.04.74.805 1.185 1.83 1.185 3.085 0 4.415-2.685 5.385-5.245 5.67.41.355.775 1.055.775 2.13 0 1.54-.015 2.785-.015 3.165 0 .31.205.67.79.555A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            GitHub profile
+          </a>
+        </div>
+        <div class="hero-status">
+          <span class="status-icon" aria-hidden="true">✦</span>
+          <span class="status-text">Currently exploring <strong>federated learning, adversarial ML & reliable AI</strong></span>
+        </div>
+      </div>
+
+      <!-- Interactive solar system. Add a photo named profile_img.jpg beside index.html
+           and it will automatically replace the RE placeholder in the sun. -->
+      <div class="hero-art" aria-label="An interactive solar system of my technical skills">
+        <div class="art-grid" aria-hidden="true"></div>
+        <div class="star-field" aria-hidden="true"></div>
+        <div class="solar-scene" id="solar-scene">
+          <div class="orbit-ring orbit-ring-one" aria-hidden="true"></div>
+          <div class="orbit-ring orbit-ring-two" aria-hidden="true"></div>
+          <div class="orbit-ring orbit-ring-three" aria-hidden="true"></div>
+
+          <div class="sun" aria-label="Rasmus at the center of the skill system">
+            <div class="sun-aura"></div>
+            <div class="sun-photo" id="profile-frame">
+              <span class="avatar-initials" id="profile-initials" aria-hidden="true">RE</span>
+              <img class="profile-image" id="profile-image" alt="Rasmus Eliasson" hidden />
+            </div>
+            <span class="sun-name">RASMUS ELIASSON</span>
+          </div>
+
+          <!-- Every arm rotates; its planet counter-rotates to keep the label upright. -->
+          <div class="planet-arm orbit-inner" style="--angle:-55deg;--duration:100s;--planet-hue:#79e7cd">
+            <div class="planet-anchor"><div class="planet-stabilizer">
+              <button class="planet" type="button" data-skill="Python" aria-label="Explore Python">
+                <span class="planet-globe">Py</span><span class="planet-label">Python</span>
+              </button>
+            </div></div>
+          </div>
+          <div class="planet-arm orbit-inner" style="--angle:125deg;--duration:100s;--planet-hue:#f0c77e">
+            <div class="planet-anchor"><div class="planet-stabilizer">
+              <button class="planet" type="button" data-skill="PyTorch" aria-label="Explore PyTorch">
+                <span class="planet-globe">Pt</span><span class="planet-label">PyTorch</span>
+              </button>
+            </div></div>
+          </div>
+          <div class="planet-arm orbit-middle" style="--angle:22deg;--duration:145s;--planet-hue:#a5adff">
+            <div class="planet-anchor"><div class="planet-stabilizer">
+              <button class="planet" type="button" data-skill="Machine Learning" aria-label="Explore machine learning">
+                <span class="planet-globe">ML</span><span class="planet-label">Machine Learning</span>
+              </button>
+            </div></div>
+          </div>
+          <div class="planet-arm orbit-middle" style="--angle:202deg;--duration:145s;--planet-hue:#f49db8">
+            <div class="planet-anchor"><div class="planet-stabilizer">
+              <button class="planet" type="button" data-skill="AI Security" aria-label="Explore AI security">
+                <span class="planet-globe">AI</span><span class="planet-label">AI Security</span>
+              </button>
+            </div></div>
+          </div>
+          <div class="planet-arm orbit-outer" style="--angle:145deg;--duration:205s;--planet-hue:#83caff">
+            <div class="planet-anchor"><div class="planet-stabilizer">
+              <button class="planet" type="button" data-skill="Digital Ethics" aria-label="Explore digital ethics">
+                <span class="planet-globe">DE</span><span class="planet-label">Digital Ethics</span>
+              </button>
+            </div></div>
+          </div>
+          <div class="planet-arm orbit-outer" style="--angle:325deg;--duration:205s;--planet-hue:#d7b0ff">
+            <div class="planet-anchor"><div class="planet-stabilizer">
+              <button class="planet" type="button" data-skill="Federated Learning" aria-label="Explore federated learning">
+                <span class="planet-globe">FL</span><span class="planet-label">Federated ML</span>
+              </button>
+            </div></div>
+          </div>
+
+          <div class="system-detail" aria-live="polite">
+            <span class="system-detail-indicator" aria-hidden="true"></span>
+            <div><strong id="skill-title">My skill universe</strong><span id="skill-description">Select a planet to explore what I work with.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">01 / SELECTED WORK</p>
+          <h2 id="projects-title">Things I've worked on<span style="color:var(--accent)">.</span></h2>
+          <p class="section-description" style="margin-top:14px;max-width:520px;">A selection of academic projects spanning machine learning, security, and software architecture.</p>
+        </div>
+        <div class="project-action-area">
+          <a class="view-all" href="projects.html">View all projects <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <!-- Selected projects come from projects-data.js. Four cards remain visible even if JS is unavailable. -->
+      <div class="project-grid featured-projects" id="project-grid" aria-label="Four selected projects">
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon" aria-hidden="true">✦</span><span class="project-number">PROJECT 01</span></div>
+            <h3>MALLORN – Astronomical Classification</h3>
+            <p>Classifying tidal disruption events from astronomical light curves using feature engineering, stacked ensembles and statistical evaluation.</p>
+            <div class="tags"><span class="tag">Machine Learning</span><span class="tag">Python</span><span class="tag">Ensemble Learning</span><span class="tag">Astronomy</span></div>
+            <a class="project-link" href="https://github.com/DreadWoolf/Mallorn-Classification" target="_blank" rel="noopener noreferrer">View project ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon" aria-hidden="true">◈</span><span class="project-number">PROJECT 02</span></div>
+            <h3>Federated Learning Security</h3>
+            <p>Evaluating label-flipping attacks against federated learning and comparing aggregation strategies under malicious clients.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">Flower</span><span class="tag">AI Security</span></div>
+            
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon" aria-hidden="true">⌁</span><span class="project-number">PROJECT 03</span></div>
+            <h3>Spam Classification &amp; Statistical Testing</h3>
+            <p>Comparing supervised classifiers on the Spambase dataset using cross-validation, F1 score, and Friedman/Nemenyi significance tests.</p>
+            <div class="tags"><span class="tag">Machine Learning</span><span class="tag">Classification</span><span class="tag">Statistics</span></div>
+            <a class="project-link" href="https://github.com/DreadWoolf/Spam-classification" target="_blank" rel="noopener noreferrer">View project ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon" aria-hidden="true">◇</span><span class="project-number">PROJECT 04</span></div>
+            <h3>scikit-learn Architecture Analysis</h3>
+            <p>Analyzing scikit-learn&#x27;s modular architecture, quality attributes, component boundaries, and interoperability with external data formats.</p>
+            <div class="tags"><span class="tag">Software Architecture</span><span class="tag">scikit-learn</span><span class="tag">Analysis</span></div>
+            
+          </article>
+      </div>
+      <p class="project-note">Browse my code on <a href="https://github.com/DreadWoolf" target="_blank" rel="noopener noreferrer">GitHub ↗</a></p>
+    </section>
+
+    <section class="content-section" id="about" aria-labelledby="about-title">
+      <div class="about-grid">
+        <div>
+          <p class="section-kicker">02 / ABOUT ME</p>
+          <h2 id="about-title">Curious by nature.<br/>Engineer by training<span style="color:var(--accent)">.</span></h2>
+          <p>I'm pursuing a <strong>Master of Science in Engineering in AI and Machine Learning</strong>. I enjoy understanding not just how a model works, but how to build dependable systems around it.</p>
+          <p>My interests range from practical machine learning and AI security to software architecture, robotics and space technology. I'm particularly interested in how reliable AI can contribute to engineering challenges in the space industry.</p>
+          <span class="skill-title">TECHNOLOGIES & INTERESTS</span>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">scikit-learn</span>
+            <span class="tag">NumPy</span><span class="tag">Git</span><span class="tag">Federated Learning</span>
+            <span class="tag">Software Architecture</span><span class="tag">AI Security</span>
+            <span class="tag">Space Technology (interest)</span>
+          </div>
+        </div>
+        <div>
+          <p class="section-kicker">03 / BACKGROUND</p>
+          <h2>Education & experience<span style="color:var(--accent)">.</span></h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <small>EDUCATION · ONGOING</small>
+              <h3>M.Sc. in Engineering – AI & Machine Learning</h3>
+              <p>Blekinge Institute of Technology (BTH)</p>
+            </div>
+            <div class="timeline-item">
+              <small>TEACHING & ACADEMIC SUPPORT</small>
+              <h3>Teaching Assistant / Amanuens</h3>
+              <p>Assisting students through labs and academic learning activities in computing-related subjects.</p>
+            </div>
+            <div class="timeline-item">
+              <small>TEACHING EXPERIENCE</small>
+              <h3>Teaching Assistant – Vector Analysis</h3>
+              <p>Helping students work through mathematical problems and course concepts.</p>
+            </div>
+          </div>
+          <!-- Industrial background is intentionally BELOW the academic experience. -->
+          <h3 class="experience-subhead">Experience beyond code<span style="color:var(--accent)">.</span></h3>
+          <p class="experience-intro">Before and alongside my engineering studies, I gained hands-on experience in industrial workplaces — a perspective I bring into technical teamwork and problem solving.</p>
+          <!-- Edit the INDUSTRIAL_EXPERIENCE list in portfolio-data.js. -->
+          <div class="timeline experience-timeline" id="industrial-experience"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-panel" id="contact" aria-labelledby="contact-title">
+      <div>
+        <p class="section-kicker">04 / LET'S CONNECT</p>
+        <h2 id="contact-title">Let's build something meaningful<span style="color:var(--accent)">.</span></h2>
+        <p>Interested in discussing software engineering, AI, machine learning or future opportunities? You can find me on GitHub.</p>
+      </div>
+      <a href="https://github.com/DreadWoolf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="flex-shrink:0">Get in touch ↗</a>
+      <!-- Replace the link above with your LinkedIn profile or an email link when ready. -->
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year">2026</span> Rasmus Eliasson. Designed & built with care.</p>
+      <div class="footer-links">
+        <a href="https://github.com/DreadWoolf"
+          target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+        <a href="https://www.linkedin.com/in/rasmus-eliasson/"
+          target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+  <script src="portfolio-data.js" defer></script>
+  <script src="projects-data.js" defer></script>
+  <script src="site.js" defer></script>
+</body>
+</html>

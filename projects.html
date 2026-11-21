@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080e18" />
+  <meta
+    name="description"
+    content="All projects by Rasmus Eliasson — machine learning, AI security and software engineering."
+  />
+
+  <title>Projects | Rasmus Eliasson</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header>
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="Rasmus Eliasson – home"
+      >
+        <span class="brand-symbol">re.</span>
+        <span class="brand-name">rasmus<span>.</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a class="hide-mobile" href="index.html#projects">
+          Featured
+        </a>
+
+        <a class="hide-mobile" href="index.html#about">
+          About
+        </a>
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/DreadWoolf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/rasmus-eliasson/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn ↗
+        </a>
+
+        <a class="nav-contact" href="index.html#contact">
+          Contact
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="container">
+
+    <!-- Page introduction -->
+    <section
+      class="all-projects-hero"
+      aria-labelledby="all-projects-title"
+    >
+      <a class="back-link" href="index.html#projects">
+        ← Back to portfolio
+      </a>
+
+      <p class="section-kicker" style="margin-top:36px;">
+        SELECTED & PAST WORK
+      </p>
+
+      <h1 id="all-projects-title">
+        All <span class="gradient-name">projects.</span>
+      </h1>
+
+      <p>
+        Academic and independent projects across AI security,
+        machine learning and software engineering.
+        This list grows as new work is ready to share.
+      </p>
+    </section>
+
+    <!-- ========== PROJECT LIST ========== -->
+    <!-- Projects are loaded from projects-data.js -->
+    <section
+      class="all-projects-list"
+      id="all-projects-list"
+      aria-label="All projects"
+    >
+
+      <!-- Fallback if JavaScript fails -->
+      <article class="project-card project-full">
+
+        <div class="project-top">
+          <span class="project-icon">✦</span>
+        </div>
+
+        <div class="project-body">
+          <h3>MALLORN – Astronomical Classification</h3>
+
+          <p>
+            Machine learning for astronomical event classification.
+          </p>
+
+          <a
+            class="project-link"
+            href="https://github.com/DreadWoolf/Mallorn-Classification"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View project ↗
+          </a>
+        </div>
+
+      </article>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container footer-content">
+
+      <p>
+        © <span id="year">2026</span> Rasmus Eliasson.
+        Designed & built with care.
+      </p>
+
+      <div class="footer-links">
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/DreadWoolf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/rasmus-eliasson/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn ↗
+        </a>
+
+        <a href="index.html">
+          Back to home ↑
+        </a>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== JAVASCRIPT ========== -->
+  <script src="portfolio-data.js" defer></script>
+  <script src="projects-data.js" defer></script>
+  <script src="site.js" defer></script>
+
+</body>
+</html>
