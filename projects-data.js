@@ -29,32 +29,40 @@ window.PORTFOLIO_PROJECTS = [
     featured: true,              // 2 of the four homepage projects
     description: "Evaluating label-flipping attacks against federated learning and comparing aggregation strategies under malicious clients.",
     tags: ["Python", "PyTorch", "Flower", "AI Security"],
-    url: ""                     // Private: add its public URL later.
+    url: "https://github.com/DreadWoolf/AI-security-Assignment"
   },
   {
     title: "Spam Classification & Statistical Testing",
     icon: "⌁",
-    featured: true,              // 3 of the four homepage projects
+    featured: false,
     description: "Comparing supervised classifiers on the Spambase dataset using cross-validation, F1 score, and Friedman/Nemenyi significance tests.",
     tags: ["Machine Learning", "Classification", "Statistics"],
     url: "https://github.com/DreadWoolf/Spam-classification"
   },
   {
-    title: "scikit-learn Architecture Analysis",
-    icon: "◇",
-    featured: true,              // 4 of the four homepage projects
-    description: "Analyzing scikit-learn's modular architecture, quality attributes, component boundaries, and interoperability with external data formats.",
-    tags: ["Software Architecture", "scikit-learn", "Analysis"],
-    url: ""                     // Add public repository link if available.
+    title: "Responsible Data Collection for LLM Training",
+    icon: "⚖",
+    featured: true,
+    description: "An academic report examining the ethical challenges of large-scale data collection for LLM training, focusing on privacy risks, personal data protection, and the responsibilities of AI developers.",
+    tags: ["Digital Ethics", "LLMs", "AI Privacy", "Responsible AI"],
+    url: "https://github.com/DreadWoolf/LLM-Data-Collection-Ethics"
   },
-  {
-    title: "Pisces Trip Planner",
-    icon: "✧",
-    featured: false,
-    description: "Designing a service-oriented trip-planning system with API integration, availability tactics and explicit architectural trade-offs.",
-    tags: ["System Design", "API Integration", "Architecture"],
-    url: ""
-  },
+  // {
+  //   title: "scikit-learn Architecture Analysis",
+  //   icon: "◇",
+  //   featured: false,
+  //   description: "Analyzing scikit-learn's modular architecture, quality attributes, component boundaries, and interoperability with external data formats.",
+  //   tags: ["Software Architecture", "scikit-learn", "Analysis"],
+  //   url: ""
+  // },
+  // {
+  //   title: "Pisces Trip Planner",
+  //   icon: "✧",
+  //   featured: false,
+  //   description: "Designing a service-oriented trip-planning system with API integration, availability tactics and explicit architectural trade-offs.",
+  //   tags: ["System Design", "API Integration", "Architecture"],
+  //   url: ""
+  // },
   {
     title: "Wine Quality Classification",
     icon: "◌",
@@ -66,7 +74,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     title: "COVID-19 Data Analysis — Europe",
     icon: "▦",
-    featured: false,
+    featured: true,
     description: "Exploratory data analysis of European COVID-19 cases, vaccinations and hospital trends using visualization and statistical methods.",
     tags: ["Python", "Data Analysis", "Statistics"],
     url: "https://github.com/DreadWoolf/Covid19-data-analysis-EU"
